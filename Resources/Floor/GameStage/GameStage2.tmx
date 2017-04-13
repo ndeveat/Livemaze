@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="40" height="40" tilewidth="128" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="sand" tilewidth="128" tileheight="64" tilecount="4" columns="1">
+  <image source="../Tiled/sand.png" trans="ff00ff" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="5" name="sand2" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="../Tiled/4.png" trans="ff00ff" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="6" name="wall" tilewidth="128" tileheight="128" tilecount="2" columns="1">
+  <image source="../Tiled/wall.png" trans="ff00ff" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="8" name="block" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="../Tiled/block.png" trans="ff00ff" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Wall" value="Yes"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="9" name="z1" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="../Tiled/1z.png" trans="ff00ff" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Zorder" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="z2" tilewidth="128" tileheight="64" tilecount="1" columns="1">
+  <image source="../Tiled/2z.png" trans="ff00ff" width="128" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Zorder" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="40" height="40" opacity="0.6">
+  <data encoding="base64" compression="zlib">
+   eJzNlOuqxEAIg92+/0Pvny2IJJo4ZenAwNlTL58aJ+L95/O71+9+yL3KZXad/32UWJnvJC/jz7FiEQvVouTc1JJ7MdlVny6XyqfYRbJlesp1ZD5nZiiu2+fKOLEiX5Qb1T2xOfNB+mMcbK83s3V2i/FN/uxvt1+qljKfoi9Vm06PmA3aX5TH0U0Er2cz9y1f936EYKv2WuHb7Jzio+Tp+Oq8nP1BWlPrU/jqd5azfn/6Vr6pP+5OdP2tHB2fMjtFN5sd7Thq/5w3bmvLfBU+NIsn+Lb9/QefEqfraQCbLm6AWBexPWHb6u8+024y5pP5Ih8U8yk+5n//ZnwTI+txPq52u/4hTpXP7X3Xt67eAP7IZ9Kn+l3VUQg8AeI58+vYuvcB8aE8UfzUN4PVFE2MzITyKoysZpWRxVLsNrrv2FVNoNlPdbiMExvjYzuj9Pm0H1u2uh8njNXmqRoy38SBeo3is7upsfJ1vXB6MDGq/Wd8TBPOGzLpSdEGsp9067whqGaWr6tn2qPtLpxqMvM5WnL2VGW70v8r35vPF0JBB/Y=
+  </data>
+ </layer>
+ <layer name="Background2" width="40" height="40" visible="0" opacity="0.51">
+  <data encoding="base64" compression="zlib">
+   eJy1lEEOxDAIA3Pp/7+8p71EYHsojVRpuwl4Sgzn1Ou5nnP9TpY6f+cnuWmMO6P2J1p3zao87vmCsdqnXFuMT7NH4hKtt4xOl3rXxaV3mPTltL/eMKbe3+DbYkx74hRnv2YkdXY53eoYbw3CN/E4YUzmCuXbYFRaN6PSTj1A+bo6JX5X5zcYnWfI3SXzhTK6mVG9VznOtb/FqHoh7UXX906b8nX/uztW7BuMVd7JjNnQJ3k3apj4zd0jqSHx4ZRRzWLFntRw4sUqT/We8qV9de9Rxsm9vGGc8E2+WcVTb6i8Ki5hT547zq10XhH+lJHU0LG/8YCKV3xpH6V8lLHiSzQcY/XenXOM5H4StsQ/VIPyUD5ax23G1C9d3MTnlM1xHLE3rWU6e0jPbtWy05/2VDLT3DeQ1c0Swth5leTsNKbziNRRaSZc05X60cVvMinGjmdb879+yv8MGA==
+  </data>
+ </layer>
+ <layer name="Wall" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztltsOgCAMQ33i/z/Z+GaQyzo6h7FNSIzietAxdhySJEWpGEcW2/16J77ac8Qgvrmn+DCJ7xkDHQhfdo3MqsFWvbH+1bEa08O3KmQtGXyt2L05aBxmTs3iWb0i9zyrRmb0RajX7ny9d9D6gOSVR6VzbfVg8o2+gccHzXnmvFmMyNxlMUZq937kkhg58tT21j1mv+VlZLGxzhPL89oz8nxnnGPR/QfrX3xh70n/1gndugUd
+  </data>
+ </layer>
+ <layer name="down" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAQwMCv3H9kR7BIocIdpM/Mu9btgQN/jb/GX+Ov8df4a/w1/hp/jb/GX+Ov8df4a/w1/hp/jb/mh7/X29ctAds=
+  </data>
+ </layer>
+ <layer name="up" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztziEOADAMA7Gi/v/Jo+MmBWcpCr2dmT26+f6q+kx9pj5Tn6nP1GfqM/WZ+kx9pj5Tn6nP1GfqM/WZ+kx95nrfdQ8YxgHP
+  </data>
+ </layer>
+ <layer name="MetaInfo" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztldsOhDAIRH3s/3/xvpoGZC601mRJGo0KcyxQxnVd4/C10xjNnXyKzm4+RGtM9zvzi/KN4N7RXFXjLl+Ui1P4Zr+nOH++WvMLfFmsk/iieKfwZSwdfO7crupPOSOr/WPer5hDXfPjfnViRM+d/KL56chv51xCGKPv3uCLYmffPPFljF2G9Brio+QBtQ6++3PlTFKN1WJrxTX1fM580LMC/RdEq/KrtJx6Rfci81V0mDpg+hfxrbTUGo3Ou4pH0WPrOtJierSzn9H/VfrX0WMNiev0n2vMPrNxZw12MXwMYzXPV/KptYDMGVWTYUD9V/JFGkoOVvI5xs683XyMfYXv5PUDJBwNSQ==
+  </data>
+ </layer>
+ <layer name="ZORDER" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzdlsuOAyEMBOea/P8H57CJNLL8qLbxHLYllAkCXOAHXNefXkk7qcxOZFMd/yTfE2emst0ZJmyqLWVuNJYyTfmq+Sf4qN7fpjCe4ovsenwKY2aT8lmbb6cRPo+xq6f4uoxbfL+177+bfBfo97iq/FDqRYevytduvZzwkfUrvo4UPqqIz4tt2io+ZY1NkThT7r9NPjo2+t+xqfo8Oxc7ruvrKV8V65Qv2us0hr33RJcv2+tEv7UjBupfj9HzF62xXp9lyOo9YezWC2uX2CPnZ+co9Sm7A0lcKf7t3DPePBpXNH8zxk7do/mvnLP9rnhof6Wuf6mdbA8TRe8vmoNWG3yEUdEptjvDlHHrrRS9wxTGzXdc9lYkjFEd2uIjjNF4NS9oziuM1BZhVmrShDFbP7Ov1szKf9V90qnfak2P4q2yQzXls1yn+f6TPqFtGT4=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib">
+      <UniqueIdentifier>{720015b1-6660-4f55-8814-acd06a7304d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Animation">
+      <UniqueIdentifier>{4d21deb8-1b06-47fc-8d2f-d7a733a144f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Animation\Animations">
+      <UniqueIdentifier>{8f0dcad9-f45a-479c-9fc3-e39e5f0ab93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Animation\Animations\Player">
+      <UniqueIdentifier>{e2ac186e-e330-46f9-92f1-3dd530e192bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\Enemy">
+      <UniqueIdentifier>{379038b1-8132-41d7-afc7-dfc2be6ba656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Animation\Animations\Enemy">
+      <UniqueIdentifier>{23fb0d71-e828-4a77-aea7-2367a4b5c699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\Player">
+      <UniqueIdentifier>{571a16a5-8059-4d2c-b988-a4d7945b5c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\Item">
+      <UniqueIdentifier>{6cbfa24d-b175-486f-8824-692442492584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\Enemy\Interface">
+      <UniqueIdentifier>{50e7bbd5-e57d-4df3-8bdb-910a86c7d9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Animation\Animations\Interface">
+      <UniqueIdentifier>{bc0df822-b09b-4230-a036-daded3093ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PathFinding">
+      <UniqueIdentifier>{489d3924-3623-4e19-8347-c21766217fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage">
+      <UniqueIdentifier>{fc533702-733b-4ed6-af3f-84e5ee03dd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Main">
+      <UniqueIdentifier>{7b47b701-4ce6-4962-abae-c746bfb10b33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pch.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SearchCamera.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mummy.cpp">
+      <Filter>src\lib\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cat.cpp">
+      <Filter>src\lib\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Snake.cpp">
+      <Filter>src\lib\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sphinx.cpp">
+      <Filter>src\lib\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>src\lib\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pharaoh.cpp">
+      <Filter>src\lib\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene2.cpp">
+      <Filter>src\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bug.cpp">
+      <Filter>src\lib\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pch.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SearchCamera.h">
+      <Filter>src\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerAnimation.h">
+      <Filter>src\Animation\Animations\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mummy.h">
+      <Filter>src\lib\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MummyAnimation.h">
+      <Filter>src\Animation\Animations\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cat.h">
+      <Filter>src\lib\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CatAnimation.h">
+      <Filter>src\Animation\Animations\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Snake.h">
+      <Filter>src\lib\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SnakeAnimation.h">
+      <Filter>src\Animation\Animations\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sphinx.h">
+      <Filter>src\lib\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SphinxAnimation.h">
+      <Filter>src\Animation\Animations\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>src\lib\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item.h">
+      <Filter>src\lib\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pharaoh.h">
+      <Filter>src\lib\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PharaohAnimation.h">
+      <Filter>src\Animation\Animations\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyInterface.h">
+      <Filter>src\lib\Enemy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimationInterface.h">
+      <Filter>src\Animation\Animations\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NodeInfo.h">
+      <Filter>src\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PathFind.h">
+      <Filter>src\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Matrix.h">
+      <Filter>src\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils.h">
+      <Filter>src\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene2.h">
+      <Filter>src\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bug.h">
+      <Filter>src\lib\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BugAnimation.h">
+      <Filter>src\Animation\Animations\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tutorial.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\End.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
